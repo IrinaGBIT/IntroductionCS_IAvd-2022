@@ -11,12 +11,12 @@ newNumb=0;
 i=0;
 while(i<=5)
 {
-    newNumb[i]=originNumb%10*10000+originNumb/10;
+    newNumb[i]=temp%10*10000+temp/10;
     i=i+1;
 }
 System.Console.WriteLine($"{newNumb}");
 {
-if(newNumb==temp) System.Console.WriteLine($"{originNumb} является палидромом");
+if(newNumb==originNumb) System.Console.WriteLine($"{originNumb} является палидромом");
 else System.Console.WriteLine($"{originNumb} НЕ является палидромом");
 }
 
