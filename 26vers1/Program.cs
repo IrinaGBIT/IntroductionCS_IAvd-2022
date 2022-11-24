@@ -1,4 +1,4 @@
-﻿/// 26. Найти сумму чисел от 1 до A
+﻿// 26. Найти сумму чисел от 1 до A
 
 int A=Convert.ToInt32(Console.ReadLine());
 int sum=0;
