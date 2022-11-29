@@ -14,7 +14,7 @@ while(i<=5)
     newNumb[i]=temp%10*10000+temp/10;
     i=i+1;
 }
-System.Console.WriteLine($"{newNumb}");
+ System.Console.WriteLine($"{newNumb}");
 {
 if(newNumb==originNumb) System.Console.WriteLine($"{originNumb} является палидромом");
 else System.Console.WriteLine($"{originNumb} НЕ является палидромом");
